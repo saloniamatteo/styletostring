@@ -13,16 +13,27 @@ Any contribution will be appreciated!
 To find more modifiers, please use this table:
 
 \#-------------------------+--------------------------------+
-\# Text Format      |  Text color        | Background color |     
+
+\# Text Format      |  Text color        | Background color |   
+
 \#-----------+-------------+--------------+-----------------+
+
 \0: normal text     | 30: black          | 40: black        |
+
 \1: bold text       | 31: red            | 41: red          |
+
 \2: darker text     | 32: green          | 42: green        |
+
 \3: italic text     | 33: yellow         | 43: yellow       |
+
 \4: underlined text | 34: blue           | 44: blue         |
+
 \                   | 35: purple         | 45: purple       |
+
 \                   | 36: cyan           | 46: cyan         |
+
 \                   | 37: white          | 47: white        |
+
 \#----------------------------------------------------------+
 
 You can also see vaniacer's table containing more color codes: https://github.com/vaniacer/bash_color/blob/master/color
