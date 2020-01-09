@@ -6,8 +6,7 @@ This is a little script I made in bash that helps you add any style you like
 to a string. It's currently the first stable working version, so I'll just
 publish it for now. NOTE: this bash script DOES NOT have any dependencies. It currently has been tested on Termux (Android 9, no root) and Ubuntu 18.04, and they both work. If you find a bug, please create a new [issue over here](https://github.com/GoDzM4TT3O/styletostring/issues).
 
-If you want to add another modifier to your string,
-I recommend adding it manually (please check [
+If you want to add another modifier to your string, please check [manually adding color codes](https://github.com/GoDzM4TT3O/styletostring/blob/master/README.md#manually-adding-color-codes)
 
 Any contribution will be appreciated!
 
@@ -29,7 +28,7 @@ You can see vaniacer's table containing more color codes: https://github.com/van
 
 [preview]: https://raw.githubusercontent.com/GoDzM4TT3O/styletostring/master/preview.gif
 
-## More info regarding manually adding color codes:
+## Manually adding color codes:
 The command was 'printf \e[44mtest':
 - \e[ means that we're starting a color code
 - 44 is a code that means that we're adding a blue background to the string
