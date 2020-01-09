@@ -4,11 +4,10 @@
 
 This is a little script I made in bash that helps you add any style you like
 to a string. It's currently the first stable working version, so I'll just
-publish it for now.
-Because of this, if you want to add another modifier to your string,
-I recommend adding it manually; for example: I have a string with a blue background
-('\e[44mtest') and I want to make it bold, in that case I will add the number 1.
-The result will be '\e[1;44mtest'.
+publish it for now. NOTE: this bash script DOES NOT have any dependencies. It currently has been tested on Termux (Android 9, no root) and Ubuntu 18.04, and they both work. If you find a bug, please create a new [issue over here](https://github.com/GoDzM4TT3O/styletostring/issues).
+
+If you want to add another modifier to your string,
+I recommend adding it manually (please check [
 
 Any contribution will be appreciated!
 
