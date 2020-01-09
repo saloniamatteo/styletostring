@@ -28,12 +28,14 @@ If applicable, add screenshots to help explain your problem.
  - Kernel version [only if Linux; e.g. 5.0.0]
  - Terminal [e.g. gnome-terminal]
  - Bash version:
+ - StyleToString version:
 
 **Smartphone (please complete the following information):**
  - Device: [e.g. Galaxy A50]
  - OS: [e.g. Android 9]
  - Terminal: [e.g. Termux]
- - Version: 
+ - Terminal version:
+ - StyleToString version:
 
 **Additional context**
 Add any other context about the problem here.
