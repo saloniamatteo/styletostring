@@ -29,3 +29,29 @@ To find more modifiers, please use this table:
 You can see vaniacer's table containing more color codes: https://github.com/vaniacer/bash_color/blob/master/color
 
 [preview]: https://raw.githubusercontent.com/GoDzM4TT3O/styletostring/master/preview.gif
+
+## More info regarding manually adding color codes:
+The command was 'printf \e[44mtest':
+- \e[ means that we're starting a color code
+- 44 is a code that means that we're adding a blue background to the string
+- m means the color code is over
+- test is our string
+
+to display all of the above correctly in a terminal without borking it, 
+we're going to add newlines and resetting the color at the end of the string:
+
+
+
+BEFORE: \e[44mtest
+
+AFTER: \n\e[44mtest\n\n\e[0;37m
+(\n is a newline)
+
+
+
+If I want to make it underlined, I'm going to add the '4' code before 44
+RESULT: \n\e[**4**;44mtest\n\n\e[0;37m
+
+
+If I want to make it bold, I'm going to add the '1' code before '4'
+RESULT: \n\e[**1**;4;44mtest\n\n\e[0;37m
