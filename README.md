@@ -10,10 +10,10 @@ If you want to add another modifier to your string, please check [manually addin
 
 Any contribution will be appreciated!
 
-## Resources
-To find more modifiers, please use this table:
+## Color codes
+To find more color codes, please use this table:
 
-| text format        | text color         | background color   |
+| Text Format        | Text Color         | Background Color   |
 |--------------------|--------------------|--------------------|
 | 0: normal text     | 30: black          | 40: black          |
 | 1: bold text       | 31: red            | 41: red            |
@@ -24,9 +24,7 @@ To find more modifiers, please use this table:
 |                    | 36: cyan           | 46: cyan           |
 |                    | 37: white          | 47: white          |
 
-You can see vaniacer's table containing more color codes: https://github.com/vaniacer/bash_color/blob/master/color
-
-[preview]: https://raw.githubusercontent.com/GoDzM4TT3O/styletostring/master/preview.gif
+(You can see vaniacer's table containing more color codes: https://github.com/vaniacer/bash_color/blob/master/color)
 
 ## Manually adding color codes:
 The command was 'printf \e[44mtest':
@@ -51,3 +49,5 @@ If I want to make it underlined, I'm going to add the '4' code before 44: \n\e[*
 
 
 If I want to make it bold, I'm going to add the '1' code before '4': \n\e[**1**;4;44mtest\n\n\e[0;37m
+
+[preview]: https://raw.githubusercontent.com/GoDzM4TT3O/styletostring/master/preview.gif
