@@ -1,4 +1,7 @@
 # styletostring
+
+![gif preview][preview]
+
 This is a little script I made in bash that helps you add any style you like
 to a string. It's currently the first stable working version, so I'll just
 publish it for now.
@@ -24,3 +27,5 @@ To find more modifiers, please use this table:
 |                    | 37: white          | 47: white          |
 
 You can see vaniacer's table containing more color codes: https://github.com/vaniacer/bash_color/blob/master/color
+
+[preview]: https://raw.githubusercontent.com/GoDzM4TT3O/styletostring/master/preview.gif
