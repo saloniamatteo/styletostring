@@ -13,7 +13,7 @@ Any contribution will be appreciated!
 To find more modifiers, please use this table:
 
 #-------------------------+--------------------------------+
-# Text Format      |  Text color        | Background color |     
+\# Text Format      |  Text color        | Background color |     
 #-----------+-------------+--------------+-----------------+
 0: normal text     | 30: black          | 40: black        |
 1: bold text       | 31: red            | 41: red          |
