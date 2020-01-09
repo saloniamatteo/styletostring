@@ -23,18 +23,11 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. Ubuntu]
- - Kernel version [only if Linux; e.g. 5.0.0]
- - Terminal [e.g. gnome-terminal]
+**Your configuration**
+ - OS: [e.g. Ubuntu 18.04 x64, Android 9]
+ - Kernel version: [(relevant to Linux) e.g. 5.0.0]
+ - Terminal: [e.g. gnome-terminal]
  - Bash version:
- - StyleToString version:
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. Galaxy A50]
- - OS: [e.g. Android 9]
- - Terminal: [e.g. Termux]
- - Terminal version:
  - StyleToString version:
 
 **Additional context**
