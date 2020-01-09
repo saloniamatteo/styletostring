@@ -44,7 +44,7 @@ else
 	# If the second input was a number, print the appropriate style
 	printf '\e[%sm%s\e[m\n' "${codes[number]}" "$string"
 	# Also print the code that was used to add a style to the string
-	echo "printf \e[${codes[number]}m$string"
+	echo "printf '\e[${codes[number]}m$string'"
 	echo "The line above is the command used to reproduce\
  the style applied to your string; for more info, see README.md"
 fi
