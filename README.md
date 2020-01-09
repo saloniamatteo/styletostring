@@ -49,9 +49,7 @@ AFTER: \n\e[44mtest\n\n\e[0;37m
 
 
 
-If I want to make it underlined, I'm going to add the '4' code before 44
-RESULT: \n\e[**4**;44mtest\n\n\e[0;37m
+If I want to make it underlined, I'm going to add the '4' code before 44: \n\e[**4**;44mtest\n\n\e[0;37m
 
 
-If I want to make it bold, I'm going to add the '1' code before '4'
-RESULT: \n\e[**1**;4;44mtest\n\n\e[0;37m
+If I want to make it bold, I'm going to add the '1' code before '4': \n\e[**1**;4;44mtest\n\n\e[0;37m
