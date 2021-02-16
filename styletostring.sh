@@ -1,8 +1,8 @@
 #!/bin/bash
 clear
 # Print version info
-printf "\e[1;37;44mGoDzM4TT3O\'s styletostring v1.1\e[0;37m\n"
-printf "\e[1;37;44mGitHub page: https://github.com/GoDzM4TT3O/styletostring\e[0;37m\n"
+printf "\e[1;37;44mSalonia Matteo\'s styletostring v1.1\e[0;37m\n"
+printf "\e[1;37;44mGitHub page: https://github.com/saloniamatteo/styletostring\e[0;37m\n"
 # List of available styles
 colors=("",
         'Bold text'

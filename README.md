@@ -1,12 +1,12 @@
 # styletostring
 
-![gif preview][preview]
+![gif preview][https://raw.githubusercontent.com/saloniamatteo/styletostring/master/preview.gif]
 
 This is a little script I made in bash that helps you add any style you like
 to a string. It's currently the first stable working version, so I'll just
-publish it for now. NOTE: this bash script DOES NOT have any dependencies. It currently has been tested on Termux (Android 9, no root) and Ubuntu 18.04, and they both work. If you find a bug, please create a new [issue over here](https://github.com/GoDzM4TT3O/styletostring/issues).
+publish it for now. NOTE: this bash script DOES NOT have any dependencies. It currently has been tested on Termux (Android 9, no root) and Ubuntu 18.04, and they both work. If you find a bug, please create a new [issue over here](https://github.com/saloniamatteo/styletostring/issues).
 
-If you want to add another modifier to your string, please check [manually adding color codes](https://github.com/GoDzM4TT3O/styletostring/blob/master/README.md#manually-adding-color-codes)
+If you want to add another modifier to your string, please check [manually adding color codes](https://github.com/saloniamatteo/styletostring/blob/master/README.md#manually-adding-color-codes)
 
 Any contribution will be appreciated!
 
@@ -24,7 +24,7 @@ To find more color codes, please use this table:
 |                    | 36: cyan           | 46: cyan           |
 |                    | 37: white          | 47: white          |
 
-(You can see vaniacer's table containing more color codes: https://github.com/vaniacer/bash_color/blob/master/color)
+(You can see vaniacer's table containing more color codes: [vaniacer/bash_color](https://github.com/vaniacer/bash_color/blob/master/color))
 
 ## Manually adding color codes:
 The command was 'printf \e[44mtest':
@@ -50,4 +50,3 @@ If I want to make it underlined, I'm going to add the '4' code before 44: \n\e[*
 
 If I want to make it bold, I'm going to add the '1' code before '4': \n\e[**1**;4;44mtest\n\n\e[0;37m
 
-[preview]: https://raw.githubusercontent.com/GoDzM4TT3O/styletostring/master/preview.gif
